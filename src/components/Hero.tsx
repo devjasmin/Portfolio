@@ -1,13 +1,17 @@
 import profilePicture from "../assets/profile_picture.jpg";
+import pictureTechs from "../assets/picture_techs.jpg";
+import { ArrowDownIcon } from "@heroicons/react/24/outline";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdMail } from "react-icons/md";
 
 function Hero() {
   return (
     <>
       <section>
-        <img src={profilePicture} alt="Profilbild" className="h-48 w-48" />
-        <p className="text-amber-100 mb-3.5">Hi, ich bin Jasmin</p>
-        <p className="text-green-600 text-5xl mb-6">
-          Ihre neue Frontend Developerin
+        <img src={profilePicture} alt="Profilbild" className="h-40 w-40" />
+        <p className="text-amber-300 m-3.5">Hi, ich bin Jasmin</p>
+        <p className="bg-linear-to-r from-red-600 via-green-700 to-blue-500 text-5xl mb-5 rounded-xl py-3 scroll-px-1.5">
+          Ihr Frontend Developer
         </p>
         <br />
         <span className="text-white py-4">
@@ -16,14 +20,23 @@ function Hero() {
           necessitatibus velit beatae perferendis, rerum minus? Ea, tempore
           magni laborum a dolore quos dicta culpa? Nesciunt ipsum, tenetur hic
           aliquid minus nobis ea saepe quae obcaecati porro quo corrupti
-          expedita! Libero earum cupiditate ad necessitatibus. Est sunt rem
-          error dolores alias quasi possimus corrupti consectetur voluptatibus
-          nobis distinctio quos reiciendis ea dolor illum consequuntur
-          aspernatur velit, voluptas quisquam. Harum, distinctio. Dolorem, dicta
-          inventore? Laboriosam ad distinctio laborum aperiam, hic ipsa saepe
-          modi vel reiciendis id quaerat, assumenda reprehenderit consequuntur
-          alias debitis sint. Nesciunt.
+          expedita! Nesciunt.
         </span>
+        <img
+          src={pictureTechs}
+          alt="Profilbild"
+          className="h-52 w-52 py-3.5 mx-auto mb-10"
+        />
+        <div className="flex gap-4 border p-2">
+          <FaGithub className="bg-white h-10 w-10 rounded-xl" />
+          <FaLinkedin className="bg-white h-10 w-10 rounded-xl" />
+          <MdMail className="bg-white h-10 w-10 rounded-xl" />
+        </div>
+        <br />
+        <button className="flex items center bg-blue-600 text-white py-4 px-8 rounded-3xl w-6l">
+          Projekte ansehen
+          <ArrowDownIcon className="h-5 w-5" />
+        </button>
       </section>
     </>
   );
