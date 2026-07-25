@@ -17,7 +17,7 @@ function Hero() {
                   alt="Profilbild"
                   className="rounded-full mt-10 h-40 w-40 lg:h-52 lg:w-52"
                 />
-                <p className="text-fuchsia-400 m-5 mb-5 lg:text-2xl">
+                <p className="text-blue-500 m-5 mb-5 text-xl lg:text-3xl">
                   Hi, ich bin <span className="font-bold">Jasmin</span>
                 </p>
               </div>
@@ -44,16 +44,16 @@ function Hero() {
               />
             </div>
           </div>
-          <div className="flex gap-5 border p-2">
+          <div className="flex gap-4 p-3">
             <FaGithub className="bg-white h-8 w-8 rounded-xl lg:h-10 lg:w-10 hover:cursor-pointer" />
             <FaLinkedin className="bg-white h-8 w-8 rounded-xl hover:cursor-pointer" />
             <MdMail className="bg-white h-8 w-8 rounded-xl hover:cursor-pointer" />
           </div>
           <br />
-          <button className="flex items-center bg-fuchsia-400 text-black py-4 px-8 rounded-3xl hover:cursor-pointer lg:text-xl">
+          <div className="flex items-center align-middle w-52 gap-2 bg-blue-500 text-black mt-10 py-2 px-4 mb-2 rounded-3xl hover:cursor-pointer lg:text-xl">
             Projekte ansehen
             <ArrowDownIcon className="h-5 w-5" />
-          </button>
+          </div>
         </div>
       </section>
     </>
