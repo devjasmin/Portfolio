@@ -10,7 +10,7 @@ function Project() {
         <div className="container mx-auto text-left mr-5 mt-10 lg:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-20 mt-20 gap-20 text-center ">
             <div className="">
-              <div className="text-white font-bold text-3xl mt-10 mb-10 lg:text-5xl">
+              <div className="text-white font-bold text-4xl mt-10 mb-10 lg:text-5xl">
                 Meine Projekte
               </div>
               <p className="text-slate-300 text-xl lg:tex">
@@ -31,7 +31,7 @@ function Project() {
                 <div className="text-blue-500 text-xl py-4 text-left">
                   devjasmin.github.io/wetter-app
                 </div>
-                <div className="text-white mb-5">
+                <div className="text-white mb-6">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Dolorem optio natus at aut. Rerum quis tenetur harum totam
                   incidunt a.
@@ -57,7 +57,7 @@ function Project() {
                       WeatherAPI
                     </button>
                   </div>
-                  <div className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-4 px-8 rounded-3xl hover:cursor-pointer lg:text-xl">
+                  <div className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-5 px-8 rounded-3xl hover:cursor-pointer lg:text-xl">
                     Code ansehen
                     <ArrowRightIcon className="h-5 w-5" />
                   </div>
@@ -91,7 +91,7 @@ function Project() {
                         responsives Design
                       </button>
                     </div>
-                    <div className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-4 px-8 rounded-3xl hover:cursor-pointer lg:text-xl">
+                    <div className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-5 px-8 rounded-3xl hover:cursor-pointer lg:text-xl">
                       Code ansehen
                       <ArrowRightIcon className="h-5 w-5" />
                     </div>

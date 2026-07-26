@@ -5,7 +5,7 @@ import { MdMail } from "react-icons/md";
 function info() {
   return (
     <>
-      <div className=" bg-black">
+      <div className=" bg-slate-700">
         <h2 className="text-3xl text-white mb-4 font-bold text-center ">
           Weitere Erfahrungen
         </h2>
@@ -14,7 +14,7 @@ function info() {
           der Zeit erstellt habe. Dort können Sie sich auch von meinem Code
           überzeugen.
         </p>
-        <div className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-4 px-8 rounded-3xl hover:cursor-pointer lg:text-xl">
+        <div className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-4 px-6 rounded-3xl hover:cursor-pointer lg:text-xl">
           GitHub ansehen
           <ArrowRightIcon className="h-5 w-5" />
         </div>
@@ -30,14 +30,14 @@ function info() {
           Social-Media-Profilen vorbei!
         </p>
         <div className="">
-          <div className="email text-white m-5 text-left ">
+          <div className="email text-white m-8 text-left ">
             <a href="mailto:j.longa@gmx.ch" className="flex items-center gap-1">
               <AtSymbolIcon className="h-5 w-5" />
               j.longa@gmx.ch
             </a>
           </div>
         </div>
-        <div className="flex gap-4 p-3">
+        <div className="flex gap-4 p-4">
           <FaGithub className="bg-white h-8 w-8 rounded-xl lg:h-10 lg:w-10 hover:cursor-pointer" />
           <FaLinkedin className="bg-white h-8 w-8 rounded-xl hover:cursor-pointer" />
           <MdMail className="bg-white h-8 w-8 rounded-xl hover:cursor-pointer" />

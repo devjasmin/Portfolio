@@ -2,7 +2,7 @@ function footer() {
   return (
     <>
       <div className=" bg-black">
-        <h3 className="text-3xl text-white mb-4 font-bold text-center mt-5">
+        <h3 className="text-3xl text-white mb-4 font-bold text-center mt-5 p-6">
           Impressum
         </h3>
 
@@ -10,7 +10,9 @@ function footer() {
         <p className="text-xl text-white mb-4 text-center">
           Webermühle 15, <br /> 5432 Neuenhof
         </p>
-        <p className="text-xl text-white mb-5 text-center ">j.longa@gmx.ch</p>
+        <p className="text-xl text-white mb-6 px-6 text-center ">
+          j.longa@gmx.ch
+        </p>
       </div>
     </>
   );
