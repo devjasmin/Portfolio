@@ -23,7 +23,7 @@ function Hero() {
               </div>
               <h1 className="text-white text-4xl mb-5 py-3 lg:text-6xl">
                 Ihre neue
-                <span className="font-bold bg-linear-to-r from-red-600 via-green-700 to-blue-500 text-4xl mb-5 py-3 text-transparent bg-clip-text lg:text-6xl">
+                <span className="font-bold bg-linear-to-r from-red-600 via-green-700 to-blue-500 text-4xl mb-5 py-3 text-transparent bg-clip-text lg:text-6xl px-1">
                   Frontend Developerin
                 </span>
               </h1>
