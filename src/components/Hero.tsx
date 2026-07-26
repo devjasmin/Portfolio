@@ -7,8 +7,8 @@ import { MdMail } from "react-icons/md";
 function Hero() {
   return (
     <>
-      <section className="bg-slate-950 min-h-screen">
-        <div className="container mx-auto text-left mr-5 mb-10 mt-10 lg:px-6">
+      <section className="bg-slate-950">
+        <div className="container mx-auto text-left mr-5 lg:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 mt-20 gap-20 text-center ">
             <div className="text-left">
               <div className="">
