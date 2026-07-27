@@ -1,8 +1,8 @@
 function footer() {
   return (
     <>
-      <div className=" bg-black">
-        <h3 className="text-3xl text-white mb-4 font-bold text-center mt-5 p-6">
+      <div className=" bg-slate-950 py-6">
+        <h3 className="text-3xl text-white mb-4 font-bold text-center mt-5">
           Impressum
         </h3>
 

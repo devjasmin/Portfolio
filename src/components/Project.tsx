@@ -6,7 +6,7 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline";
 function Project() {
   return (
     <>
-      <section className="bg-slate-950 min-h-screen">
+      <section className="bg-slate-950 py-6">
         <div className="container mx-auto text-left mr-5 mt-10 lg:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-20 mt-20 gap-20 text-center ">
             <div className="">

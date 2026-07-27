@@ -7,15 +7,15 @@ import { MdMail } from "react-icons/md";
 function Hero() {
   return (
     <>
-      <section className="bg-slate-950">
-        <div className="container mx-auto text-left mr-5 lg:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 mt-20 gap-20 text-center ">
+      <section className="bg-slate-950 py-6">
+        <div className="container mx-auto text-left mr-5 mt-10 lg:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 mb-20 mt-20 gap-10 text-center ">
             <div className="text-left">
               <div className="">
                 <img
                   src={profilePicture}
                   alt="Profilbild"
-                  className="rounded-full mt-10 h-40 w-40 lg:h-52 lg:w-52"
+                  className="rounded-full ml-5 h-40 w-40 lg:h-52 lg:w-52"
                 />
                 <p className="text-blue-500 m-5 mb-5 text-xl lg:text-3xl">
                   Hi, ich bin <span className="font-bold">Jasmin</span>
@@ -40,7 +40,7 @@ function Hero() {
               <img
                 src={pictureTechs}
                 alt="Profilbild"
-                className="h-52 w-auto py-3.5 mx-auto mb-30 lg:mt-30 lg:h-96"
+                className="h-52 w-auto mx-auto mb-10 lg:mt-30 lg:h-90"
               />
             </div>
           </div>
@@ -49,8 +49,7 @@ function Hero() {
             <FaLinkedin className="bg-white h-8 w-8 rounded-xl hover:cursor-pointer" />
             <MdMail className="bg-white h-8 w-8 rounded-xl hover:cursor-pointer" />
           </div>
-          <br />
-          <div className="flex items-center align-middle w-52 gap-2 bg-blue-500 text-black mt-10 py-2 px-4 mb-2 rounded-3xl hover:cursor-pointer lg:text-xl">
+          <div className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-2 px-4 mb-2 rounded-3xl hover:cursor-pointer lg:text-xl lg:w-60">
             Projekte ansehen
             <ArrowDownIcon className="h-5 w-5" />
           </div>
