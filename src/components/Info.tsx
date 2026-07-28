@@ -15,13 +15,19 @@ function info() {
             Laufe der Zeit erstellt habe. Dort können Sie sich auch von meinem
             Code überzeugen.
           </p>
-          <div className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-4 px-6 rounded-3xl hover:cursor-pointer lg:text-xl">
+          <a
+            href="#"
+            className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-4 px-6 rounded-3xl hover:cursor-pointer lg:text-xl lg:mt-10 lg:py-4 lg:px-4 text-align"
+          >
             GitHub ansehen
             <ArrowRightIcon className="h-5 w-5" />
-          </div>
+          </a>
         </section>
         <section className="bg-slate-950 py-6 px-6 lg:order-1">
-          <div className="text-white text-4xl text-left"> Noch Fragen?</div>
+          <div className="text-white text-4xl text-left lg:py-4">
+            {" "}
+            Noch Fragen?
+          </div>
           <p className="text-white text-xl">
             Zögern Sie nicht mich zu kontaktieren. Nutzen Sie dafür gerne die
             unten aufgeführte E-Mailadresse oder schauen Sie auf meinem
