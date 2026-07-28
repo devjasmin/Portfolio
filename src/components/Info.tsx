@@ -6,11 +6,11 @@ function info() {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <section className=" bg-slate-800 py-6 rounded-xl">
+        <section className=" bg-slate-800 py-6 px-6 rounded-xl lg:order-2">
           <h2 className="text-3xl text-white font-bold py-5 text-center ">
             Weitere Erfahrungen
           </h2>
-          <p className="text-xl text-white lg: text-center">
+          <p className="text-xl text-white lg:text-center">
             Auf meinem GitHub-Profil finden Sie weitere Projekte, die ich im
             Laufe der Zeit erstellt habe. Dort können Sie sich auch von meinem
             Code überzeugen.
@@ -20,8 +20,8 @@ function info() {
             <ArrowRightIcon className="h-5 w-5" />
           </div>
         </section>
-        <section className="bg-slate-950 py-6">
-          <div className="text-white text-4xl text-left m-5"> Noch Fragen?</div>
+        <section className="bg-slate-950 py-6 px-6 lg:order-1">
+          <div className="text-white text-4xl text-left"> Noch Fragen?</div>
           <p className="text-white text-xl">
             Zögern Sie nicht mich zu kontaktieren. Nutzen Sie dafür gerne die
             unten aufgeführte E-Mailadresse oder schauen Sie auf meinem
