@@ -6,7 +6,7 @@ function info() {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <section className=" bg-slate-800 py-6 px-6 rounded-xl lg:order-2">
+        <section className=" bg-slate-800 py-6 px-6  lg:order-2">
           <h2 className="text-3xl text-white font-bold py-5 text-center ">
             Weitere Erfahrungen
           </h2>

@@ -44,15 +44,18 @@ function Hero() {
               />
             </div>
           </div>
-          <div className="flex gap-4 p-3">
-            <FaGithub className="bg-white h-8 w-8 rounded-xl lg:h-10 lg:w-10 hover:cursor-pointer" />
-            <FaLinkedin className="bg-white h-8 w-8 rounded-xl hover:cursor-pointer" />
-            <MdMail className="bg-white h-8 w-8 rounded-xl hover:cursor-pointer" />
+          <div className="flex gap-10 p-4">
+            <FaGithub className="bg-white h-8 w-8 rounded-xl lg:h-10 lg:w-10 fill-slate-950 transition hover:cursor-pointer" />
+            <FaLinkedin className="bg-white h-8 w-8 rounded-xl fill-slate-850 transition hover:cursor-pointer" />
+            <MdMail className="bg-white h-8 w-8 rounded-xl fill-slate-950 transition hover:cursor-pointer" />
           </div>
-          <div className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-2 px-4 mb-2 rounded-3xl hover:cursor-pointer lg:text-xl lg:w-60">
+          <a
+            href="#"
+            className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-3 px-4 mb-2 rounded-3xl hover:cursor-pointer lg:text-xl lg:w-60"
+          >
             Projekte ansehen
             <ArrowDownIcon className="h-5 w-5" />
-          </div>
+          </a>
         </div>
       </section>
     </>

@@ -133,10 +133,13 @@ function Project() {
                       AJAX
                     </button>
                   </div>
-                  <div className="flex items-center w-52 gap-1 bg-blue-500 text-black mt-10 py-4 px-8 rounded-3xl hover:cursor-pointer lg:text-xl">
+                  <a
+                    href="#"
+                    className="flex items-center w-52 gap-1 bg-blue-500 text-black mt-10 py-4 px-8 rounded-3xl hover:cursor-pointer lg:text-xl lg:py-10 lg:px-12"
+                  >
                     Code ansehen
                     <ArrowRightIcon className="h-5 w-5" />
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
