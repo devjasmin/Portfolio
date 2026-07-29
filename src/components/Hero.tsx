@@ -21,9 +21,9 @@ function Hero() {
                   Hi, ich bin <span className="font-bold">Jasmin</span>
                 </p>
               </div>
-              <h1 className="text-white text-4xl mb-5 py-3 lg:text-6xl">
+              <h1 className="text-white text-3xl mb-5 py-3 lg:text-5xl">
                 Ihre neue
-                <span className="font-bold bg-linear-to-r from-red-600 via-green-700 to-blue-500 text-transparent bg-clip-text lg:text-6xl px-1">
+                <span className="text-3xl font-bold bg-linear-to-r from-red-600 via-green-700 to-blue-500 text-transparent bg-clip-text lg:text-5xl px-1">
                   Frontend Entwicklerin
                 </span>
               </h1>
@@ -75,7 +75,7 @@ function Hero() {
           </div>
 
           <a
-            href="https://github.com/devjasmin"
+            href="./Project.tsx"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub-Profil von Jasmin öffnen"
