@@ -1,8 +1,7 @@
 import profilePicture from "../assets/Hero-Section/profile_picture.jpg";
 import pictureTechs from "../assets/Hero-Section/picture_techs.jpg";
 import { ArrowDownIcon } from "@heroicons/react/24/outline";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdMail } from "react-icons/md";
+import Contact from "./Contact";
 
 function Hero() {
   return (
@@ -15,15 +14,15 @@ function Hero() {
                 <img
                   src={profilePicture}
                   alt="Profilbild"
-                  className="rounded-full ml-5 h-40 w-40 lg:h-52 lg:w-52"
+                  className="rounded-full ml-5 mb-5 h-40 w-40 lg:h-52 lg:w-52"
                 />
-                <p className="text-blue-500 m-5 mb-5 text-xl lg:text-3xl">
+                <p className="text-blue-500 mb-5 text-xl lg:text-3xl">
                   Hi, ich bin <span className="font-bold">Jasmin</span>
                 </p>
               </div>
               <h1 className="text-white text-3xl mb-5 py-3 lg:text-5xl">
                 Ihre neue{" "}
-                <span className="text-3xl font-bold bg-linear-to-r from-red-600 via-green-700 to-blue-500 text-transparent bg-clip-text lg:text-5xl px-1">
+                <span className="text-3xl font-bold bg-linear-to-r from-green-700 via-green-300 to-blue-500 text-transparent bg-clip-text lg:text-5xl px-1">
                   Frontend Entwicklerin
                 </span>
               </h1>
@@ -44,45 +43,17 @@ function Hero() {
               />
             </div>
           </div>
-          <div className="mt-8 flex gap-5">
-            <a
-              href="https://github.com/devjasmin"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="GitHub-Profil von Jasmin öffnen"
-              className="rounded-xl lg:h-10 lg:w-10 fill-slate-950 transition hover:scale-110 cursor-pointer"
-            >
-              <FaGithub className="bg-white h-8 w-8" />
-            </a>
-
-            <a
-              href="DEIN LINKEDIN-LINK"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="LinkedIn-Profil von Jasmin öffnen"
-              className="rounded-xl lg:h-10 lg:w-10 fill-slate-850 transition hover:scale-110 cursor-pointer"
-            >
-              <FaLinkedin className="bg-white h-8 w-8" />
-            </a>
-
-            <a
-              href="mailto: j.longa@gmx.ch"
-              aria-label="E-Mail an Jasmin schreiben"
-              className="rounded-xl lg:h-10 lg:w-10 fill-slate-850 transition hover:scale-110 cursor-pointer"
-            >
-              <MdMail className="bg-white h-8 w-8" />
-            </a>
+          <div>
+            <Contact />
           </div>
 
           <a
-            href="./Project.tsx"
-            target="_blank"
-            rel="noreferrer"
+            href="#"
             aria-label="GitHub-Profil von Jasmin öffnen"
-            className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-3 px-4 mb-2 rounded-3xl hover:cursor-pointer lg:text-xl lg:w-60"
+            className="flex items-center w-52 gap-2 bg-blue-500 text-white font-bold mt-10 py-3 px-4 mb-2 rounded-2xl hover:cursor-pointer lg:text-xl lg:w-60"
           >
             Projekte ansehen
-            <ArrowDownIcon className="h-5 w-5" />
+            <ArrowDownIcon className="h-5 w-5 " />
           </a>
         </div>
       </section>
