@@ -25,7 +25,9 @@ function Project() {
                 alt="Bildauschnitt der Wetter App"
                 className="bg-black mt-10 mb-5"
               />
-              <h3 className="text-white text-3xl py-4">Moderne Wetter App</h3>
+              <h3 className="text-white text-3xl py-4 text-center">
+                Moderne Wetter App
+              </h3>
 
               <a
                 href="https://devjasmin.github.io/wetter-app"
@@ -41,7 +43,7 @@ function Project() {
                 incidunt a.
               </div>
               <div className="technologien">
-                <div className="button-container text-left">
+                <div className="button-container flex flex-wrap text-left gap-1">
                   <span className="text-white bg-slate-500 rounded-xl px-3 m-2 lg:text-xl">
                     HTML
                   </span>
@@ -76,7 +78,9 @@ function Project() {
                 alt="Bildauschnit von Pizzeria App MammaMia"
                 className="bg-black mt-10 mb-5"
               />
-              <h3 className="text-white text-3xl py-4">Pizzeria Mamma Mia</h3>
+              <h3 className="text-white text-3xl py-4 text-center">
+                Pizzeria Mamma Mia
+              </h3>
               <div className="text-blue-500 text-xl py-4 text-center lg:text-2xl">
                 devjasmin.github.io/pizzeria-app
               </div>
@@ -86,7 +90,7 @@ function Project() {
                 incidunt a.
               </div>
               <div className="technologien">
-                <div className="button-container text-left">
+                <div className="button-container flex flex-wrap text-left gap-1">
                   <span className="text-white bg-slate-500 rounded-xl px-3 m-2 lg:text-xl">
                     HTML
                   </span>
@@ -113,17 +117,19 @@ function Project() {
                 className="bg-black mt-10 mb-5"
               />
 
-              <h3 className="text-white text-3xl py-4">Lustige Witze App</h3>
+              <h3 className="text-white text-3xl py-4 text-center">
+                Lustige Witze App
+              </h3>
               <div className="text-blue-500 text-xl py-4 text-center lg:text-2xl">
                 devjasmin.github.io/witze-app
               </div>
-              <div className="text-white mb-5 text-xl">
+              <div className="text-white mb-5 lg:text-xl">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Dolorem optio natus at aut. Rerum quis tenetur harum totam
                 incidunt a.
               </div>
               <div className="technologien">
-                <div className="button-container text-left">
+                <div className="button-container flex flex-wrap text-left gap-1">
                   <span className="text-white bg-slate-500 rounded-xl px-3 m-2 lg:text-xl">
                     HTML
                   </span>
@@ -159,17 +165,19 @@ function Project() {
                 className="bg-black mt-10 mb-5"
               />
 
-              <h3 className="text-white text-3xl py-4">Lustige Witze App</h3>
+              <h3 className="text-white text-3xl py-4 text-center">
+                Lustige Witze App
+              </h3>
               <div className="text-blue-500 text-xl py-4 text-center lg:text-2xl">
                 devjasmin.github.io/mieterportal
               </div>
-              <div className="text-white mb-5 text-xl">
+              <div className="text-white mb-5 lg:text-xl">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Dolorem optio natus at aut. Rerum quis tenetur harum totam
                 incidunt a.
               </div>
               <div className="technologien">
-                <div className="button-container text-left">
+                <div className="button-container flex flex-wrap text-left gap-1">
                   <span className="text-white bg-slate-500 rounded-xl px-3 m-2 lg:text-xl">
                     HTML
                   </span>

@@ -1,12 +1,9 @@
-function footer() {
+function Footer() {
   return (
     <>
-      <div className=" bg-slate-800 py-6">
+      <div className=" bg-slate-800 px-5 pt-4 pb-4">
         <h3 className="text-10px text-white text-center">
-          <a
-            href="/Impressum.tsx"
-            className="hover:text-white transition-colors"
-          >
+          <a href="#" className="hover:text-white transition-colors">
             Impressum
           </a>
 
@@ -19,4 +16,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

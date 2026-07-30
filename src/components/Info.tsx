@@ -1,53 +1,65 @@
-import { ArrowRightIcon, AtSymbolIcon } from "@heroicons/react/24/outline";
+import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
-function info() {
+function Info() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2">
-        <section className=" bg-slate-800 py-6 px-6  lg:order-2">
-          <h2 className="text-3xl text-white font-bold py-5 text-center ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 pb-20 bg-slate-950 px-20">
+        <section className="w-full bg-slate-800 rounded-xl shadow-xl text-center px-5 py-5 lg:order-2">
+          <h2 className="text-3xl text-slate-200 font-bold py-4 text-center ">
             Weitere Erfahrungen
           </h2>
-          <p className="text-xl text-white lg:text-center">
+          <p className="text-slate-200 lg:text-center ">
             Auf meinem GitHub-Profil finden Sie weitere Projekte, die ich im
             Laufe der Zeit erstellt habe. Dort können Sie sich auch von meinem
             Code überzeugen.
           </p>
           <a
             href="#"
-            className="flex items-center w-52 gap-2 bg-blue-500 text-black mt-10 py-4 px-6 rounded-3xl hover:cursor-pointer lg:text-xl lg:mt-10 lg:py-4 lg:px-4 text-align"
+            className="flex w-52 gap-2 bg-blue-500 text-black mt-6 py-4 px-7 mx-auto rounded-3xl hover:cursor-pointer lg:text-xl lg:mt-10 lg:py-4 lg:px-4 "
           >
             GitHub ansehen
             <ArrowRightIcon className="h-5 w-5" />
           </a>
         </section>
         <section className="bg-slate-950 py-6 px-6 lg:order-1">
-          <div className="text-white text-4xl text-left lg:py-4">
+          <div className="text-white text-3xl text-left lg:py-4">
             {" "}
             Noch Fragen?
           </div>
-          <p className="text-white text-xl">
-            Zögern Sie nicht mich zu kontaktieren. Nutzen Sie dafür gerne die
-            unten aufgeführte E-Mailadresse oder schauen Sie auf meinem
-            Social-Media-Profilen vorbei!
+          <p className="text-white py-5 lg:py-3 text-xl">
+            Oder möchten Sie mehr über meine Arbeit erfahren? Schreiben Sie mir
+            gerne oder besuchen Sie meine Profile.
           </p>
-          <div className="">
-            <div className="email text-white m-8 text-left text-xl ">
-              <a
-                href="mailto:j.longa@gmx.ch"
-                className="flex items-center gap-1"
-              >
-                <AtSymbolIcon className="h-5 w-5" />
-                j.longa@gmx.ch
-              </a>
-            </div>
-          </div>
-          <div className="flex gap-4 p-4">
-            <FaGithub className="bg-white h-8 w-8 rounded-xl lg:h-10 lg:w-10 hover:cursor-pointer" />
-            <FaLinkedin className="bg-white h-8 w-8 rounded-xl hover:cursor-pointer" />
-            <MdMail className="bg-white h-8 w-8 rounded-xl hover:cursor-pointer" />
+          <div className="mt-5 mb-4 flex gap-5">
+            <a
+              href="https://github.com/devjasmin"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub-Profil von Jasmin öffnen"
+              className="rounded-xl lg:h-10 lg:w-10 fill-slate-950 transition hover:scale-110 cursor-pointer"
+            >
+              <FaGithub className="bg-white h-8 w-8" />
+            </a>
+
+            <a
+              href="DEIN LINKEDIN-LINK"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn-Profil von Jasmin öffnen"
+              className="rounded-xl lg:h-10 lg:w-10 fill-slate-850 transition hover:scale-110 cursor-pointer"
+            >
+              <FaLinkedin className="bg-white h-8 w-8" />
+            </a>
+
+            <a
+              href="mailto: j.longa@gmx.ch"
+              aria-label="E-Mail an Jasmin schreiben"
+              className="rounded-xl lg:h-10 lg:w-10 fill-slate-850 transition hover:scale-110 cursor-pointer"
+            >
+              <MdMail className="bg-white h-8 w-8" />
+            </a>
           </div>
         </section>
       </div>
@@ -55,4 +67,4 @@ function info() {
   );
 }
 
-export default info;
+export default Info;
