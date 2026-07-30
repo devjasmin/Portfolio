@@ -1,6 +1,5 @@
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdMail } from "react-icons/md";
+import Contact from "./Contact";
 
 function Info() {
   return (
@@ -32,34 +31,8 @@ function Info() {
             Oder möchten Sie mehr über meine Arbeit erfahren? Schreiben Sie mir
             gerne oder besuchen Sie meine Profile.
           </p>
-          <div className="mt-5 mb-4 flex gap-5">
-            <a
-              href="https://github.com/devjasmin"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="GitHub-Profil von Jasmin öffnen"
-              className="rounded-xl lg:h-10 lg:w-10 fill-slate-950 transition hover:scale-110 cursor-pointer"
-            >
-              <FaGithub className="bg-white h-8 w-8" />
-            </a>
-
-            <a
-              href="DEIN LINKEDIN-LINK"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="LinkedIn-Profil von Jasmin öffnen"
-              className="rounded-xl lg:h-10 lg:w-10 fill-slate-850 transition hover:scale-110 cursor-pointer"
-            >
-              <FaLinkedin className="bg-white h-8 w-8" />
-            </a>
-
-            <a
-              href="mailto: j.longa@gmx.ch"
-              aria-label="E-Mail an Jasmin schreiben"
-              className="rounded-xl lg:h-10 lg:w-10 fill-slate-850 transition hover:scale-110 cursor-pointer"
-            >
-              <MdMail className="bg-white h-8 w-8" />
-            </a>
+          <div>
+            <Contact />
           </div>
         </section>
       </div>
