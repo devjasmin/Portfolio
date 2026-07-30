@@ -29,14 +29,9 @@ function Project() {
                 Moderne Wetter App
               </h3>
 
-              <a
-                href="https://devjasmin.github.io/wetter-app"
-                target="_blank"
-                rel="noreferrer"
-                className="text-blue-500 text-xl py-4 text-center lg:text-2xl"
-              >
+              <div className="text-blue-500 text-xl py-4 text-center lg:text-2xl">
                 devjasmin.github.io/wetter-app
-              </a>
+              </div>
               <div className="text-white mt-4 mb-6 lg:text-xl lg:mt-5 lg:mb-7">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Dolorem optio natus at aut. Rerum quis tenetur harum totam
