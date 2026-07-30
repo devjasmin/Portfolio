@@ -5,7 +5,7 @@ import { MdMail } from "react-icons/md";
 function Info() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2 pb-20 bg-slate-950 px-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 pb-20 bg-slate-950 px-10">
         <section className="w-full bg-slate-800 rounded-xl shadow-xl text-center px-5 py-5 lg:order-2">
           <h2 className="text-3xl text-slate-200 font-bold py-4 text-center ">
             Weitere Erfahrungen
@@ -23,8 +23,8 @@ function Info() {
             <ArrowRightIcon className="h-5 w-5" />
           </a>
         </section>
-        <section className="bg-slate-950 py-6 px-6 lg:order-1">
-          <div className="text-white text-3xl text-left lg:py-4">
+        <section className="bg-slate-950 py-10 px-6 lg:order-1">
+          <div className="text-white text-3xl text-left lg: py-4">
             {" "}
             Noch Fragen?
           </div>
