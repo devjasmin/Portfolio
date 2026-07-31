@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
-function impressum() {
+function Impressum() {
   return (
     <>
       <div className=" bg-slate-950 py-6">
         <Link
           to="/"
-          className="text-blue-500 text-xl px-6 text-center lg:text-3xl"
+          className="text-blue-500 border-4 py-2 rounded-2xl text-xl px-6 text-center lg:text-2xl"
         >
-          Zurück
+          Zurück zur Startseite
         </Link>
         <h3 className="text-4xl text-white mb-4 font-bold text-center mt-5 lg:text-5xl">
           Impressum
@@ -26,4 +26,4 @@ function impressum() {
   );
 }
 
-export default impressum;
+export default Impressum;
