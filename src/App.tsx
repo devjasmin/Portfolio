@@ -1,6 +1,6 @@
 import "./App.css";
 import Hero from "./components/Hero";
-import Project from "./components/Project";
+import Projects from "./components/Projects";
 import Info from "./components/Info";
 import Footer from "./components/Footer";
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Hero />
-      <Project />
+      <Projects />
       <Info />
 
       <Footer />
