@@ -52,10 +52,10 @@ function Projects() {
       <section className="bg-slate-950 py-6">
         <div className="container mx-auto text-left px-5 mt-10 lg:px-6">
           <div className="text-center">
-            <h2 className="text-white font-bold text-4xl mb-10 lg:text-5xl">
+            <h2 className="text-white font-bold text-3xl mb-10 lg:text-5xl">
               Meine Projekte
             </h2>
-            <p className="text-slate-300 text-xl">
+            <p className="text-slate-300 lg:text-xl">
               Hier sind einige Auszüge aus meinen besten Arbeiten, damit Sie
               sich ein Bild meiner Fähigkeiten und Erfahrungen machen können.
             </p>

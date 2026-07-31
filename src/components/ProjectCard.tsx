@@ -23,7 +23,9 @@ function ProjectCard({
     <div className="card-container text-left">
       <img src={picture} alt={altText} className="bg-black mt-10 mb-5" />
 
-      <h3 className="text-white text-3xl py-4 text-center">{title}</h3>
+      <h3 className="text-white text-2xl py-4 text-center lg:text-3xl">
+        {title}
+      </h3>
 
       <a
         href={projectLink}
@@ -43,7 +45,7 @@ function ProjectCard({
           {technologies.map((technology) => (
             <span
               key={technology}
-              className="text-white bg-slate-500 rounded-xl px-3 m-2 lg:text-xl"
+              className="text-white bg-slate-700 px-2.5 py-1 text-xs rounded-xl m-2 lg:text-xl"
             >
               {technology}
             </span>

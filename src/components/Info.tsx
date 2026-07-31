@@ -6,10 +6,10 @@ function Info() {
     <>
       <div className="grid grid-cols-1 lg:grid-cols-2 pb-20 bg-slate-950 px-10">
         <section className="w-full bg-slate-800 rounded-xl shadow-xl text-center px-5 py-5 lg:order-2">
-          <h2 className="text-3xl text-slate-200 font-bold py-4 text-center ">
+          <h2 className="text-2xl text-slate-200 font-bold py-4 text-center lg:text-3xl ">
             Weitere Erfahrungen
           </h2>
-          <p className="text-slate-200 lg:text-center ">
+          <p className="text-slate-200 lg:text-center lg:mt-8 lg:text-lg ">
             Auf meinem GitHub-Profil finden Sie weitere Projekte, die ich im
             Laufe der Zeit erstellt habe. Dort können Sie sich auch von meinem
             Code überzeugen.
@@ -27,7 +27,7 @@ function Info() {
             {" "}
             Noch Fragen?
           </div>
-          <p className="text-white py-5 lg:py-3 text-xl">
+          <p className="text-white py-5 lg:py-3 lg:text-xl">
             Oder möchten Sie mehr über meine Arbeit erfahren? Schreiben Sie mir
             gerne oder besuchen Sie meine Profile.
           </p>
